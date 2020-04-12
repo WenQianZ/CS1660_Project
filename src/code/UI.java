@@ -354,7 +354,7 @@ public class UI implements Runnable{
 					time = ((System.nanoTime() - start)/(1000000.0));
 					System.out.println("time elapsed: " + time + "ms");
 					label_note.setText("<html> You searched for the term: <i>" + term +"</i>"
-										+ "<br/> Your search was executed in <i>" + time + "</i> ns</html>");
+										+ "<br/> Your search was executed in <i>" + time + "</i> ms</html>");
 					String[] collections = found.split(", ");
 					String result = "<tr><th>Document Name</th> <th>Frequencies</th></tr>";
 					
@@ -379,7 +379,7 @@ public class UI implements Runnable{
 			time = ((System.nanoTime() - start)/(1000000.0));
 			System.out.println("time elapsed: " + time + "ms");
 			label_note.setText("<html> You searched for the term: <i>" + term +"</i>"
-								+ "<br/> Your search was executed in <i>" + time + "</i> ns</html>");
+								+ "<br/> Your search was executed in <i>" + time + "</i> ms</html>");
 			
 			label_search_result.setText("No result found.");
 			

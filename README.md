@@ -6,4 +6,5 @@ Item
 3. Inverted Indexing MapReduce Implementation and Execution on the Cluster (GCP)
 
 docker build -t ui-search-engine .
+
 docker run -e DISPLAY={IP_Address}:0.0 ui-search-engine

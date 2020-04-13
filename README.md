@@ -8,3 +8,8 @@ Item
 docker build -t ui-search-engine .
 
 docker run -e DISPLAY={IP_Address}:0.0 ui-search-engine
+
+
+video:
+
+https://pitt-my.sharepoint.com/:v:/g/personal/wez77_pitt_edu/EVAO2Eyb_7VOiY1GsizRs2EBYxZHcHIU1w6z8tvQS6dzHw?e=riXg8c
